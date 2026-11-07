@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stories of Los Santos</title>
+  <meta name="description" content="Stories of Los Santos FiveM roleplay: rules, guides, tools and updates all in one place.">
+  <link rel="icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@700;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="topbar-logo" href="#top"><img src="logo.png" alt="Sols"></a>
+    <nav class="topbar-nav">
+      <a href="#rules">Rules</a>
+      <a href="#guides">Guides</a>
+      <a href="#tools">Tools</a>
+      <a href="#status">Status</a>
+      <a href="#staff">Staff</a>
+      <a class="btn btn-small btn-primary nav-keep" data-link="discord" href="#">Discord</a>
+    </nav>
+  </header>
+
+  <main class="page" id="top">
+
+    <section class="hero">
+      <span class="badge">FIVEM ROLEPLAY</span>
+      <h1 class="title">Stories of Los Santos</h1>
+      <p class="tagline">Rules, guides, tools and updates. Everything you need, all in one place.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" data-link="discord" href="#" target="_blank" rel="noopener">Join the Discord</a>
+        <a class="btn" id="connectBtn" href="#" hidden>Connect to the server</a>
+      </div>
+    </section>
+
+    <div class="lights" aria-hidden="true"></div>
+
+    <a class="card latest" id="latest" data-link="changelogs" href="#" hidden>
+      <span class="latest-tag">LATEST UPDATE</span>
+      <span class="latest-title" id="latestTitle"></span>
+      <span class="latest-date" id="latestDate"></span>
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+
+    <section class="card" id="rules">
+      <h2 class="section-title">Rules</h2>
+      <p class="intro">Read these before you play. "I didn't know" won't be accepted.</p>
+      <div class="links">
+        <a class="link" data-link="guidelines" href="#">
+          <span class="icon">📜</span>
+          <span class="text"><b>Server Guidelines</b><small>General conduct, roleplay and in-game rules</small></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="link" data-link="factionRoe" href="#">
+          <span class="icon">⚔️</span>
+          <span class="text"><b>Faction ROE</b><small>Rules of engagement for all legal &amp; illegal factions, plus punishments</small></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="card" id="guides">
+      <h2 class="section-title">Guides</h2>
+      <p class="intro">How to roleplay well in your faction or department.</p>
+      <div class="links">
+        <a class="link" data-link="factionGuide" href="#">
+          <span class="icon">📘</span>
+          <span class="text"><b>Faction Roleplay Guide</b><small>Things to do, things to talk about, interactions and character development</small></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="link" data-link="lspdEms" href="#">
+          <span class="icon">🚓</span>
+          <span class="text"><b>LSPD &amp; EMS Guides</b><small>Ranks, procedures, rules and radio codes</small></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="card" id="tools">
+      <h2 class="section-title">Tools &amp; updates</h2>
+      <p class="intro">Extras for players and factions.</p>
+      <div class="links">
+        <a class="link" data-link="factionHelper" href="#">
+          <span class="icon">🎯</span>
+          <span class="text"><b>Faction Helper</b><small>Weapon wheel spinner and the full weapon catalog</small></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="link" data-link="changelogs" href="#">
+          <span class="icon">🛠️</span>
+          <span class="text"><b>Changelogs</b><small>Everything new, changed and fixed on the server</small></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="card" id="status">
+      <h2 class="section-title">Server status</h2>
+      <div class="status-box">
+        <div class="status-main">
+          <span class="dot" id="statusDot"></span>
+          <div>
+            <b id="statusText">Checking…</b>
+            <small id="statusSub"></small>
+          </div>
+        </div>
+        <div class="status-players" id="statusPlayers" hidden>
+          <span id="playerCount">0</span><small id="playerMax">/ 0 players</small>
+        </div>
+      </div>
+      <div class="bar" id="statusBar" hidden><span id="statusFill"></span></div>
+      <div class="status-actions">
+        <a class="btn btn-small btn-primary" id="statusConnect" href="#" hidden>Connect</a>
+        <small class="muted" id="statusUpdated"></small>
+      </div>
+    </section>
+
+    <section class="card" id="staff">
+      <h2 class="section-title">Staff team</h2>
+      <p class="intro">Need help? Open a ticket in the Discord and a staff member will get to you.</p>
+      <div id="staffList"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="">
+    <p>Stories of Los Santos · By joining you agree to follow all rules.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
