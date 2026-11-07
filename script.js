@@ -17,10 +17,10 @@ const JOIN_CODE = 'dggqoay';
 // Put names between quotes with commas between them: ['Name1', 'Name2']
 // A role with no names is hidden automatically. Rename or add roles however you like.
 const STAFF = [
-  { role: 'Official Server Owners',      members: ['Pxck', 'Jah'] },
-  { role: 'Management', members: ['3xchuckyy', 'Luhkev'] },
-  { role: 'Senior Administrators',      members: ['Harmonyruins', 'Fv0ds2', 'Buryfame', 'Whyamenleave'] },
-  { role: 'Game Administrators',  members: ['pinkthirtys', 'BabyWalkDown'] },
+  { role: 'Official Server Owners - The founders. Final say on the server’s direction, rules and big decisions.',      members: ['Pxck', 'Jah'] },
+  { role: 'Management - Runs the day-to-day of the city. Oversees staff, and server events.', members: ['3xchuckyy', 'Luhkev'] },
+  { role: 'Senior Administrators - The most experienced admins. Handle serious reports, appeals and train newer staff.',      members: ['Harmonyruins', 'Fv0ds2', 'Buryfame', 'Whyamenleave'] },
+  { role: 'Game Administrators - In-city support. Handle live situations, rule breaks and player reports as they happen.',  members: ['pinkthirtys', 'BabyWalkDown'] },
 ];
 
 // ===== Fill in the links =====
