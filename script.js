@@ -1,6 +1,6 @@
 // ===== SETTINGS: change your links here =====
 const LINKS = {
-  discord:       'https://discord.gg/phbHecqfM4',
+  discord:       'https://discord.gg/solsv2',
   guidelines:    'https://pxckdev.github.io/solsv2-server-guidelines/',
   factionRoe:    'https://pxckdev.github.io/solsv2-faction-rules-of-engagement/',
   factionGuide:  'https://pxckdev.github.io/factions--simple-guide-to-serious-faction-roleplay/',
@@ -11,17 +11,16 @@ const LINKS = {
 
 // Your cfx.re join code: the part after cfx.re/join/  (example: for cfx.re/join/abc123 put 'abc123')
 // This turns on the Connect buttons AND the live server status.
-const JOIN_CODE = '';
+const JOIN_CODE = 'connect 23.27.211.14:30130';
 
 // ===== STAFF TEAM =====
 // Put names between quotes with commas between them: ['Name1', 'Name2']
 // A role with no names is hidden automatically. Rename or add roles however you like.
 const STAFF = [
-  { role: 'Owners',      members: ['Pxck', 'Jah'] },
-  { role: 'Head Admins', members: [] },
-  { role: 'Admins',      members: [] },
-  { role: 'Moderators',  members: [] },
-  { role: 'Support',     members: [] },
+  { role: 'Official Server Owners',      members: ['Pxck', 'Jah'] },
+  { role: 'Management', members: ['3xchuckyy', 'Luhkev'] },
+  { role: 'Senior Administrators',      members: ['Harmonyruins', 'Fv0ds2', 'Buryfame', 'Whyamenleave'] },
+  { role: 'Game Administrators',  members: ['pinkthirtys', 'BabyWalkDown'] },
 ];
 
 // ===== Fill in the links =====
