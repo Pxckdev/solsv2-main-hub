@@ -11,7 +11,7 @@ const LINKS = {
 
 // Your cfx.re join code: the part after cfx.re/join/  (example: for cfx.re/join/abc123 put 'abc123')
 // This turns on the Connect buttons AND the live server status.
-const JOIN_CODE = 'connect 23.27.211.14:30130';
+const JOIN_CODE = 'dggqoay';
 
 // ===== STAFF TEAM =====
 // Put names between quotes with commas between them: ['Name1', 'Name2']
